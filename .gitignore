@@ -1,0 +1,162 @@
+# Archivos de configuración de IDE
+.vs/
+.vscode/
+
+# Archivos de compilación y binarios de .NET
+bin/
+obj/
+out/
+
+# Archivos generados durante la compilación
+Generated_Code/
+*.user
+*.suo
+*.userprefs
+*.sln.docstates
+
+# Archivos de paquetes
+packages/
+**/[Pp]ackages/*
+**/[Pp]ackage[Cc]ache/
+**/[Pp]roj/[Pp]ackages/*
+
+# Utilizar glob pattern para ignorar archivos con extensiones generadas por .NET
+*.nupkg
+*.snupkg
+*.dll
+*.exe
+*.pdb
+*.mpb
+*.mpdb
+*.cache
+*.ilk
+*.aps
+*.ncb
+*.sbr
+*.sdf
+*.idb
+*.ipch
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+*.lastbuildstate
+*.userosscache
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+*.rdl.data
+*.svclog
+*.db
+*.mdf
+*.ldf
+*.kproj
+*.appxrecipe
+
+# Archivos de respaldo
+*ReSharper*
+*resharper*
+*.bak
+*.[Cc]ache
+*.[Bb]ak
+*.[Tt]mp
+
+# Archivos y carpetas de Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Archivos de distribución / build de Angular
+/dist/
+/tmp/
+/out-tsc/
+
+# Archivos de TypeScript transpilados (si no se usan carpetas de distribución específicas)
+*.js
+*.js.map
+*.d.ts
+
+# Archivos de logging
+*.log
+
+# Sistema de archivos de macOS
+.DS_Store
+
+# Archivos de sistema de Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Carpeta de salida de los documentos de Visual Studio Code
+.vscode/test/
+.vscode/*.gcno
+
+# Historial local de la terminal de Visual Studio
+.~W
+
+# Carpetas generadas por herramientas de análisis de código
+.ncrunch/
+.nCrunchProject
+.dotCover/
+
+# Herramientas de cobertura de código
+coverage/
+*.coveragexml
+
+# Herramientas de performance
+*.diagsession
+*.diagSession
+*.vsp
+*.vspx
+*.sap
+
+# Archivos de NPM
+npm-debug.log*
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos y carpetas para Docker
+**/[Dd]ocker[Bb]uild/
+**/[Dd]ocker[Vv]olumes/
+Dockerfile.*.tmp
+
+# Archivos y carpetas para herramientas de virtualización
+Vagrantfile
+.vagrant/
+
+# Otros archivos y carpetas
+**/[Tt]emp/
+**/[Tt]est[Rr]esult*
+**/[Bb]uild[Ll]og.*
+*.[Pp]ublish[Pp]rofiles/
+*.azurePubxml
+*.pubxml
+*.publishsettings
+
+# No ignore Visual Studio files and folders for SQL Server projects
+!**/*.mdf
+!**/*.ldf
+!**/*.sqlproj
+!**/*.dacpac
+!**/*.dbmdl
+
+# No ignore Visual Studio files and folders for Web projects
+!**/*.cshtml
+!**/*.aspx
+!**/*.ascx
+!**/*.master
+!**/*.css
+!**/*.js
+!**/*.jsx
+
+# No ignore wwwroot folder for ASP.NET Core projects
+!**/wwwroot/
